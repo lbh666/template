@@ -1,0 +1,39 @@
+Aug18-00:17 : Loaded LeNet parameters : 6.162e+04
+Aug18-00:17 : {
+    "Data": {
+        "dataset_type": "my_dataset",
+        "dataset": "default_data",
+        "root": null
+    },
+    "Model": {
+        "name": "LeNet",
+        "arch": "LeNet"
+    },
+    "Train": {
+        "seed": 2022,
+        "root": "./Dataset/train",
+        "lr": 0.01,
+        "weight_decay": 0.001,
+        "num_epochs": 50,
+        "batch_size": 2,
+        "shuffle": true,
+        "num_workers": 2,
+        "drop_last": false
+    },
+    "Test": {
+        "root": "./Dataset/test",
+        "batch_size": 2,
+        "shuffle": false
+    },
+    "Recorder": {
+        "log_dir": "./Output",
+        "save_log": true,
+        "show_tensorboard": true
+    },
+    "timestamp": "08180017"
+}
+Aug18-00:17 : Loaded LeNet parameters : 6.162e+04
+Aug18-00:17 : Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+Aug18-00:17 : NumExpr defaulting to 8 threads.
+Aug18-00:17 : Train Dataset size 9 @default_data has been loaded
+Aug18-00:17 : Test Dataset size 9 @default_data has been loaded

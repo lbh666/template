@@ -1,0 +1,142 @@
+Aug17-18:18 : Loaded LeNet parameters : 6.162e+04
+Aug17-18:18 : {
+    "Data": {
+        "dataset_type": "my_dataset",
+        "dataset": "default_data",
+        "root": null
+    },
+    "Model": {
+        "name": "LeNet",
+        "arch": "LeNet"
+    },
+    "Train": {
+        "seed": 2022,
+        "root": "./Dataset/train",
+        "lr": 0.01,
+        "weight_decay": 0.001,
+        "num_epochs": 50,
+        "batch_size": 2,
+        "shuffle": true,
+        "num_workers": 2,
+        "drop_last": false
+    },
+    "Test": {
+        "root": "./Dataset/test",
+        "batch_size": 2,
+        "shuffle": false
+    },
+    "Recorder": {
+        "log_dir": "./Output",
+        "save_log": true,
+        "show_tensorboard": true
+    },
+    "timestamp": "08171818"
+}
+Aug17-18:18 : Loaded LeNet parameters : 6.162e+04
+Aug17-18:18 : Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+Aug17-18:18 : NumExpr defaulting to 8 threads.
+Aug17-18:18 : Train Dataset size 9 @default_data has been loaded
+Aug17-18:18 : Test Dataset size 9 @default_data has been loaded
+Aug17-18:18 : train Epoch:1, loss:2.256, lr:1.00e-02, 0.609477  seconds/batch
+Aug17-18:18 : eval Acc:0.11, Epoch:1, loss:2.199, 0.000914  seconds/batch
+Aug17-18:18 : train Epoch:2, loss:2.212, lr:1.00e-02, 0.291481  seconds/batch
+Aug17-18:18 : eval Acc:0.11, Epoch:2, loss:2.198, 0.002224  seconds/batch
+Aug17-18:18 : train Epoch:3, loss:2.203, lr:1.00e-02, 0.296253  seconds/batch
+Aug17-18:18 : eval Acc:0.11, Epoch:3, loss:2.197, 0.001149  seconds/batch
+Aug17-18:18 : train Epoch:4, loss:2.201, lr:1.00e-02, 0.292940  seconds/batch
+Aug17-18:18 : eval Acc:0.11, Epoch:4, loss:2.197, 0.001083  seconds/batch
+Aug17-18:18 : train Epoch:5, loss:2.200, lr:1.00e-02, 0.298961  seconds/batch
+Aug17-18:18 : eval Acc:0.11, Epoch:5, loss:2.197, 0.001700  seconds/batch
+Aug17-18:18 : train Epoch:6, loss:2.202, lr:1.00e-02, 0.296292  seconds/batch
+Aug17-18:18 : eval Acc:0.11, Epoch:6, loss:2.196, 0.001132  seconds/batch
+Aug17-18:18 : train Epoch:7, loss:2.203, lr:1.00e-02, 0.301135  seconds/batch
+Aug17-18:18 : eval Acc:0.22, Epoch:7, loss:2.188, 0.001445  seconds/batch
+Aug17-18:18 : train Epoch:8, loss:2.199, lr:1.00e-02, 0.301166  seconds/batch
+Aug17-18:18 : eval Acc:0.22, Epoch:8, loss:2.167, 0.001223  seconds/batch
+Aug17-18:18 : train Epoch:9, loss:2.195, lr:1.00e-02, 0.295277  seconds/batch
+Aug17-18:18 : eval Acc:0.22, Epoch:9, loss:2.135, 0.001556  seconds/batch
+Aug17-18:18 : train Epoch:10, loss:2.121, lr:1.00e-02, 0.295732  seconds/batch
+Aug17-18:18 : eval Acc:0.22, Epoch:10, loss:2.010, 0.001778  seconds/batch
+Aug17-18:18 : train Epoch:11, loss:2.092, lr:1.00e-02, 0.293663  seconds/batch
+Aug17-18:18 : eval Acc:0.33, Epoch:11, loss:1.849, 0.001135  seconds/batch
+Aug17-18:18 : train Epoch:12, loss:1.881, lr:1.00e-02, 0.295940  seconds/batch
+Aug17-18:18 : eval Acc:0.22, Epoch:12, loss:1.799, 0.001826  seconds/batch
+Aug17-18:18 : train Epoch:13, loss:1.635, lr:1.00e-02, 0.305351  seconds/batch
+Aug17-18:18 : eval Acc:0.44, Epoch:13, loss:1.655, 0.002223  seconds/batch
+Aug17-18:18 : train Epoch:14, loss:1.595, lr:1.00e-02, 0.291055  seconds/batch
+Aug17-18:18 : eval Acc:0.44, Epoch:14, loss:1.425, 0.000883  seconds/batch
+Aug17-18:18 : train Epoch:15, loss:1.209, lr:1.00e-02, 0.287453  seconds/batch
+Aug17-18:19 : eval Acc:0.56, Epoch:15, loss:1.186, 0.002403  seconds/batch
+Aug17-18:19 : train Epoch:16, loss:1.145, lr:1.00e-02, 0.294187  seconds/batch
+Aug17-18:19 : eval Acc:0.56, Epoch:16, loss:0.959, 0.003782  seconds/batch
+Aug17-18:19 : train Epoch:17, loss:0.900, lr:1.00e-02, 0.305046  seconds/batch
+Aug17-18:19 : eval Acc:0.56, Epoch:17, loss:0.746, 0.001445  seconds/batch
+Aug17-18:19 : train Epoch:18, loss:0.971, lr:1.00e-02, 0.294300  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:18, loss:0.692, 0.003585  seconds/batch
+Aug17-18:19 : train Epoch:19, loss:0.966, lr:1.00e-02, 0.304536  seconds/batch
+Aug17-18:19 : eval Acc:0.67, Epoch:19, loss:0.685, 0.002778  seconds/batch
+Aug17-18:19 : train Epoch:20, loss:1.009, lr:1.00e-02, 0.312229  seconds/batch
+Aug17-18:19 : eval Acc:0.56, Epoch:20, loss:1.749, 0.001332  seconds/batch
+Aug17-18:19 : train Epoch:21, loss:1.937, lr:1.00e-02, 0.300977  seconds/batch
+Aug17-18:19 : eval Acc:0.56, Epoch:21, loss:1.710, 0.001115  seconds/batch
+Aug17-18:19 : train Epoch:22, loss:1.739, lr:1.00e-02, 0.294953  seconds/batch
+Aug17-18:19 : eval Acc:1.00, Epoch:22, loss:0.671, 0.002218  seconds/batch
+Aug17-18:19 : train Epoch:23, loss:0.654, lr:1.00e-02, 0.295838  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:23, loss:0.571, 0.001076  seconds/batch
+Aug17-18:19 : train Epoch:24, loss:0.481, lr:1.00e-02, 0.290695  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:24, loss:0.545, 0.001112  seconds/batch
+Aug17-18:19 : train Epoch:25, loss:0.379, lr:1.00e-02, 0.295552  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:25, loss:0.457, 0.001639  seconds/batch
+Aug17-18:19 : train Epoch:26, loss:0.302, lr:1.00e-02, 0.292943  seconds/batch
+Aug17-18:19 : eval Acc:1.00, Epoch:26, loss:0.285, 0.001115  seconds/batch
+Aug17-18:19 : train Epoch:27, loss:0.176, lr:1.00e-02, 0.296692  seconds/batch
+Aug17-18:19 : eval Acc:1.00, Epoch:27, loss:0.119, 0.000904  seconds/batch
+Aug17-18:19 : train Epoch:28, loss:0.248, lr:1.00e-02, 0.293087  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:28, loss:0.249, 0.001870  seconds/batch
+Aug17-18:19 : train Epoch:29, loss:0.322, lr:1.00e-02, 0.293998  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:29, loss:0.216, 0.001376  seconds/batch
+Aug17-18:19 : train Epoch:30, loss:0.254, lr:1.00e-02, 0.297632  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:30, loss:0.280, 0.002058  seconds/batch
+Aug17-18:19 : train Epoch:31, loss:0.248, lr:2.00e-03, 0.288584  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:31, loss:0.215, 0.001041  seconds/batch
+Aug17-18:19 : train Epoch:32, loss:0.173, lr:2.00e-03, 0.291553  seconds/batch
+Aug17-18:19 : eval Acc:0.89, Epoch:32, loss:0.161, 0.000690  seconds/batch
+Aug17-18:19 : train Epoch:33, loss:0.117, lr:2.00e-03, 0.296733  seconds/batch
+Aug17-18:19 : eval Acc:1.00, Epoch:33, loss:0.111, 0.001138  seconds/batch
+Aug17-18:19 : train Epoch:34, loss:0.080, lr:2.00e-03, 0.303493  seconds/batch
+Aug17-18:19 : eval Acc:1.00, Epoch:34, loss:0.077, 0.001223  seconds/batch
+Aug17-18:19 : train Epoch:35, loss:0.061, lr:2.00e-03, 0.301732  seconds/batch
+Aug17-18:19 : eval Acc:1.00, Epoch:35, loss:0.055, 0.001778  seconds/batch
+Aug17-18:19 : train Epoch:36, loss:0.045, lr:2.00e-03, 0.294680  seconds/batch
+Aug17-18:19 : eval Acc:1.00, Epoch:36, loss:0.043, 0.002283  seconds/batch
+Aug17-18:19 : train Epoch:37, loss:0.040, lr:2.00e-03, 0.295892  seconds/batch
+Aug17-18:19 : eval Acc:1.00, Epoch:37, loss:0.033, 0.001124  seconds/batch
+Aug17-18:20 : train Epoch:38, loss:0.027, lr:2.00e-03, 0.299914  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:38, loss:0.025, 0.001445  seconds/batch
+Aug17-18:20 : train Epoch:39, loss:0.021, lr:2.00e-03, 0.302413  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:39, loss:0.020, 0.001889  seconds/batch
+Aug17-18:20 : train Epoch:40, loss:0.015, lr:2.00e-03, 0.298198  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:40, loss:0.016, 0.001132  seconds/batch
+Aug17-18:20 : train Epoch:41, loss:0.017, lr:2.00e-03, 0.308366  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:41, loss:0.014, 0.003001  seconds/batch
+Aug17-18:20 : train Epoch:42, loss:0.011, lr:2.00e-03, 0.309775  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:42, loss:0.012, 0.003445  seconds/batch
+Aug17-18:20 : train Epoch:43, loss:0.009, lr:2.00e-03, 0.297845  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:43, loss:0.011, 0.001032  seconds/batch
+Aug17-18:20 : train Epoch:44, loss:0.008, lr:2.00e-03, 0.295486  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:44, loss:0.010, 0.000887  seconds/batch
+Aug17-18:20 : train Epoch:45, loss:0.007, lr:2.00e-03, 0.300820  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:45, loss:0.009, 0.001482  seconds/batch
+Aug17-18:20 : train Epoch:46, loss:0.006, lr:2.00e-03, 0.301664  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:46, loss:0.008, 0.001223  seconds/batch
+Aug17-18:20 : train Epoch:47, loss:0.006, lr:2.00e-03, 0.298168  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:47, loss:0.007, 0.001556  seconds/batch
+Aug17-18:20 : train Epoch:48, loss:0.005, lr:2.00e-03, 0.314217  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:48, loss:0.007, 0.001866  seconds/batch
+Aug17-18:20 : train Epoch:49, loss:0.005, lr:2.00e-03, 0.304178  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:49, loss:0.006, 0.000868  seconds/batch
+Aug17-18:20 : train Epoch:50, loss:0.005, lr:2.00e-03, 0.295113  seconds/batch
+Aug17-18:20 : eval Acc:1.00, Epoch:50, loss:0.006, 0.001111  seconds/batch
+Aug17-18:20 : Min loss 0.006 @ 50 epoch
+Aug17-18:20 : Test Dataset size 9 @default_data has been loaded
+Aug17-18:20 : eval Acc:1.00, Epoch:None, loss:0.006, 0.001111  seconds/batch

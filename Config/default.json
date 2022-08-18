@@ -1,0 +1,34 @@
+{
+    "Data": {
+        "dataset_type": "my_dataset",
+        "dataset": "default_data",
+        "root": null
+    },
+
+    "Model": {
+        "name": "LeNet",
+        "arch": "LeNet"
+    },
+
+    "Train": {
+        "seed": 2022,
+        "root": "./Dataset/train",
+        "lr": 1.0e-2,
+        "weight_decay": 1.0e-3,
+        "num_epochs": 50,
+        "batch_size": 2,
+        "shuffle": true,
+        "num_workers": 2,
+        "drop_last": false
+    },
+    "Test": {
+        "root": "./Dataset/test",
+        "batch_size": 2,
+        "shuffle": false
+    },
+    "Recorder": {
+        "log_dir": "./Output",
+        "save_log": true,
+        "show_tensorboard": true
+    }
+}
